@@ -9,6 +9,7 @@
     tools:context=".MainActivity" >
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.333"
@@ -55,6 +56,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -103,6 +105,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.333"
