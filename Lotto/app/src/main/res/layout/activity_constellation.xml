@@ -19,7 +19,7 @@
         android:text="로또 번호 확인" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/Constell_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/btnGoResult"
@@ -29,15 +29,15 @@
         app:srcCompat="@drawable/constellation" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtConstell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/imageView"
-        android:layout_alignBottom="@id/imageView"
+        android:layout_alignTop="@id/Constell_image"
+        android:layout_alignBottom="@id/Constell_image"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_toRightOf="@id/imageView"
+        android:layout_toRightOf="@id/Constell_image"
         android:gravity="center"
         android:text="쌍둥이 자리"
         android:textSize="36sp" />
@@ -46,7 +46,7 @@
         android:id="@+id/datePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/imageView"
+        android:layout_above="@id/Constell_image"
         android:layout_marginBottom="125dp"
         android:calendarViewShown="false"
         android:datePickerMode="spinner" />

@@ -9,6 +9,7 @@
     tools:context=".MainActivity" >
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.333"
@@ -47,6 +48,7 @@
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/Random"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/lottery" />
@@ -55,6 +57,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="2dp"
@@ -95,6 +98,7 @@
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/Constell"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/constellation" />
@@ -103,6 +107,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/CardView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.333"
@@ -141,6 +146,7 @@
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/Name"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 app:srcCompat="@drawable/name" />
